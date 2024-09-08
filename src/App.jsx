@@ -1,29 +1,21 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import CardContainer from "./components/CardContainer";
-import "./App.css";
-import Map from "./components/Map";
 import StartPage from "./components/StartPage";
-import Info from "./components/Info";
-import { Routes, Route, Link } from "react-router-dom"; 
 import About from "./components/About";
-import Contact from "./components/Contact";
+import Map from "./components/Map";
 import Earthquakedata from "./components/Earthquakedata";
-
-
+import { Route, Routes } from 'react-router-dom';
+import './App.css';
 
 function App() {
   return (
-    <>
-      <Header />
+    <div className="App">
       <Routes>
         <Route path="/" element={<StartPage />} />
         <Route path="/about" element={<About />} />
         <Route path="/map" element={<Map />} />
         <Route path="/data" element={<Earthquakedata />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

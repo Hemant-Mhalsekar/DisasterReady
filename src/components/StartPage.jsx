@@ -1,24 +1,31 @@
 import React from "react";
-import "./StartPage.css";
 import Earthquake from "./Earthquake";
 import Footer from "./Footer";
-import Earthquakedata from "./Earthquakedata";
 import ClimaticPop from "./ClimaticPop";
 import CardComponentQuake from "./CardComponentQuake";
 import Header from "./Header";
-import { Routes, Route, Link } from "react-router-dom"; 
+import { Route, Routes } from 'react-router-dom';
 import Start from "./Start";
-import ChartContainer from "./ChartContainer";
+import Floods from "./Floods";
+import About from "./About";
+import Map from "./Map";
+import Earthquakedata from "./Earthquakedata";
+
 
 
 const StartPage = () => {
   return (
-    <>
-    <Start />
-    <Earthquake />
-    <ClimaticPop />
-    <CardComponentQuake/>
-    <Footer />
+  <>
+    <Header/>
+    <div>
+      <Start/>
+      <Earthquake/>
+      <ClimaticPop/>
+      <Floods/>
+      <CardComponentQuake/>
+    </div>
+    <Footer/>
+
   </>  
   );
 };

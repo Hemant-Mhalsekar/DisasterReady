@@ -1,20 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  background-color: rgb(42, 42, 42);
+  color: white;
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
 }
 
 .App {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-}
-
-.main-content {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  margin: 0;
+  padding: 0;
 }
