@@ -3,11 +3,13 @@ import CardContainer from "./CardContainer"
 import CardContainer1 from './CardContainer1'
 import CardContainer2 from './CardContainer2'
 import Footer from './Footer'
+import Header from './Header'
 import "./Earthquake.css";
 
 function Earthquakedata() {
   return (
     <>
+      <Header/>
       <div ClassName="Content-charts">
         <h1>India</h1>
         <CardContainer />

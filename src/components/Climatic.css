@@ -21,8 +21,8 @@
 
   .Climate-content{
     background-image: linear-gradient(
-        rgba(0, 0, 0, 0.7), 
-        rgba(0, 0, 0, 0.7)
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
       ), 
       url('../../public/bg2.jpg');
     background-position: center;
@@ -30,25 +30,27 @@
     background-size: cover; 
     border-radius: 20px;
     height: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3), 0 0 15px rgb(0, 211, 190);
+    text-align: center;
   }
   
   .Climate-title {
     font-size: 34px;
     margin-bottom: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .Climate-description {
     font-size: 16px;
     margin-bottom: 30px;
-    color: white;
+    color: rgb(255, 255, 255);
   }
   
   .Climate-button {
     padding: 10px 20px;
     font-size: 16px;
     color: rgb(255, 255, 255);
-    background-color: #007bff;
+    background-color: rgb(42, 42, 42);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -57,6 +59,9 @@
   }
   
   .Climate-button:hover {
-    background-color: #0056b3;
+    background-color: rgb(0, 211, 190);
+    color:rgb(42, 42, 42);
+    box-shadow: 0 4px 8px 0 rgba(0, 141, 163, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
   }
   
